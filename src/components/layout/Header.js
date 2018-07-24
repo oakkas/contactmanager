@@ -8,7 +8,7 @@ const Header = props => {
     <nav className="navbar navbar-expand-sm navbar-dark bg-info mb-3 py-1">
       <div className="container">
         <a href="/" className="navbar-brand">
-          {branding}
+          <i className="fas fa-address-book" /> {branding}
         </a>
         <div>
           <ul className="navbar-nav mr-auto">
